@@ -1,0 +1,32 @@
+global: {}
+
+argocd-config:
+  repoUrl: ""
+
+  project: kafka-connectors
+
+  applicationTargets:
+    - targetRevision: test
+      targetNamespace: rabbitmq
+      applicationNames:
+        - kafka-connect-jdbc-sink
+
+#  project: inventory
+#
+#  applicationTargets:
+#    - targetRevision: test
+#      targetNamespace: inventory-test
+#      valueFiles:
+#        - values.yaml
+#        - values-test.yaml
+#      applicationNames:
+#        - inventory-ui
+#        - inventory-bff
+#        - inventory-svc
+#    - targetRevision: staging
+#      targetNamespace: inventory-staging
+#      applicationNames:
+#        - inventory-ui
+#        - inventory-bff
+#        - inventory-svc
+

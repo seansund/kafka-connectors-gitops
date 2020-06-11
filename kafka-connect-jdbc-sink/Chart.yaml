@@ -1,0 +1,4 @@
+version: 0.1.0
+name: kafka-connect-jdbc-sink
+apiVersion: v1
+description: Template configuration for a helm-based ArgoCD install.
