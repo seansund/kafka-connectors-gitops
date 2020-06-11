@@ -3,6 +3,8 @@ global: {}
 argocd-config:
   repoUrl: https://github.com/seansund/kafka-connectors-gitops
 
+  controllerRbac: false
+  
   project: kafka-connectors
 
   applicationTargets:
