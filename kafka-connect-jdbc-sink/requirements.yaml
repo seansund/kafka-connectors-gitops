@@ -1,4 +1,4 @@
 dependencies:
 - name: kafka-connectors
-  version: 0.1.0
+  version: 0.1.1
   repository: https://airazabal.github.io/kafka-connect-jdbc-sink/
