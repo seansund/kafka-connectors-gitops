@@ -2,6 +2,7 @@ global: {}
 
 # replace <app-chart-name> with the value given in requirements.yaml
 kafka-connectors:
+  replicaCount: 3
   connectDistributedProperties: |-
       # Licensed to the Apache Software Foundation (ASF) under one or more
       # contributor license agreements.  See the NOTICE file distributed with
